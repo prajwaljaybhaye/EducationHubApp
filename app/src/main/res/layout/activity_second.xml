@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/black"
+
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_white"
+        android:text="Welcome To Education Hub \n Choose Your Goal ->"
+        android:layout_marginTop="40sp"
+        android:layout_marginBottom="60dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstLayout"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10sp"
+
+        >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150sp"
+        android:layout_height="160sp"
+        android:id="@+id/androidDevBtn"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/holo_green"
+        app:cardCornerRadius="70sp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textAlignment="center"
+            android:textColor="@color/dark_white"
+            android:text="Android Devlopment"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150sp"
+        android:layout_height="160sp"
+        android:id="@+id/webDevBtn"
+        android:backgroundTint="@color/holo_blue"
+        app:cardCornerRadius="70sp"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textAlignment="center"
+            android:textColor="@color/dark_white"
+            android:text="Web\n Devlopment"/>
+
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondLayout"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10sp"
+
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150sp"
+            android:layout_height="160sp"
+            android:id="@+id/softwareEngBtn"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/holo_yello"
+            app:cardCornerRadius="70sp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textAlignment="center"
+                android:textColor="@color/dark_white"
+                android:text="Software Enginer"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150sp"
+            android:layout_height="160sp"
+            android:id="@+id/softwareDevBtn"
+            android:backgroundTint="@color/holo_orange"
+            app:cardCornerRadius="70sp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textAlignment="center"
+                android:textColor="@color/dark_white"
+                android:text="Software Devloper"/>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/thirdLayout"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10sp"
+
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150sp"
+            android:layout_height="160sp"
+            android:id="@+id/fullStackDevBtn"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/holo_pink"
+            app:cardCornerRadius="70sp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textAlignment="center"
+                android:textColor="@color/dark_white"
+                android:text="Full Stack Devloper"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150sp"
+            android:layout_height="160sp"
+            android:id="@+id/aiEngBtn"
+            android:backgroundTint="@color/holo_blur"
+            app:cardCornerRadius="70sp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textAlignment="center"
+                android:textColor="@color/dark_white"
+                android:text="Artificial\n Enginer"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tShow"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:textSize="20sp"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="90sp">
+
+
+       <Button
+           android:id="@+id/callBtn"
+           android:layout_width="150sp"
+           android:layout_height="wrap_content"
+           android:text="Contect Us"
+           android:backgroundTint="@color/holo_call"
+
+           />
+
+       <Button
+           android:id="@+id/linkdinBtn"
+           android:layout_width="150sp"
+           android:layout_height="wrap_content"
+           android:text="Follow"
+           android:backgroundTint="@color/holo_linkdin"
+
+           />
+
+   </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gry_orange">#FF9800</color>
+    <color name="bulus">#35303E</color>
+    <color name="darkOrange">#FF5722</color>
+
+    <color name="gry_white">#AD9E96</color>
+    <color name="dark_white1">#FBFBFB</color>
+    <color name="dark_white2">#E3DCD7D7</color>
+    <color name="dark_white">#FBFBFB</color>
+    <color name="green">#38823B</color>
+    <color name="pinks">#454341</color>
+    <color name="holo_green">#0B5B53</color>
+    <color name="holo_blue">#0B4C69</color>
+    <color name="holo_orange">#714811</color>
+    <color name="holo_yello">#AA9C20</color>
+    <color name="holo_pink">#470652</color>
+    <color name="holo_blur">#34580B</color>
+    <color name="holo_call">#0A9C23</color>
+    <color name="holo_linkdin">#2C3C92</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#f00</color>
+    <color name="almostBlack">#222</color>
+    <color name="orange">#FFBc00</color>
+    <color name="bg_blue1">#96DEFF</color>
+    <color name="bg_blue2">#48A5D0</color>
+    <color name="bg_blue3">#0E7FB3</color>
+
+
+
+</resources>
