@@ -50,7 +50,7 @@ class First_activity : AppCompatActivity() {
         private fun linkdinBtnFun(linkVar : Button){
             linkVar.setOnClickListener{
                 val intent = Intent(Intent.ACTION_VIEW)
-                intent.data= Uri.parse("https://linkdin.com/prajwal-jaybhaye")
+                intent.data= Uri.parse("https://www.linkedin.com/in/prajwal-jaybhaye/")
                 startActivity(intent)
             }
         }
